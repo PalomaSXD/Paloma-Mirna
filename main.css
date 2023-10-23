@@ -1,0 +1,43 @@
+body{
+    background-color: whitesmoke; /* cor de fundo da página */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ul{
+    display:flex; /* display flex pode-se manipular todos os elementos filhos */
+    justify-content: space-between; /* alinhar os elementos no eixo principal */
+    list-style-type: none; /* define o tipo de marcador que vai aparecer na lista, none remove o marcador */
+    align-items: center; /* alinhamento no centro */
+    padding: 32px; /* defini a distância dos elementos */
+}
+a{
+    color: black;
+}
+
+h1{
+    color:black;
+}
+h2{
+    color:brown;
+}
+h3{
+    color:black;
+}
+
+
+header img{ /* definido as configurações do cabeçalho */
+    width: 150px;
+    height: 150px;
+    border-radius: 80%;
+    border: 5px solid white
+}
+
+footer{ /* configurações do rodapé */
+    display: flex;
+    justify-content: center;
+    
+}
+
+footer li{ /* configurações dos elementos referentes as imagens postas no rodapé */
+    margin: 30px;
+    list-style-type: none;
+}
